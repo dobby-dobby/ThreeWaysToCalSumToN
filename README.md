@@ -6,6 +6,7 @@ Disadvantages:
 - Performance (Time Complexity): 𝑂(𝑛) as the loop runs n times.
 - Risk of Errors: Higher chances of off-by-one errors or bugs, like incorrect loop bounds (i <= n vs i < n).
 - Inefficiency for Large: 𝑛: Iterating many times can slow down the program if n is very large.
+
 Way 2: Using the Formula
 Advantages:
 - Fast (Constant Time): 𝑂(1) as it uses a mathematical formula and doesn't require iteration.
@@ -14,6 +15,7 @@ Advantages:
 Disadvantages:
 - Requires Knowledge of the Formula: Not immediately intuitive unless you're familiar with this specific summation formula.
 - Prone to Overflow: For very large 𝑛, the multiplication 𝑛 X (𝑛+1) can cause integer overflow in some programming languages.
+
 Way 3: Using Recursion
 Advantages:
 - Elegant and Compact: Showcases the beauty of recursion and is often a favorite among programmers who like mathematical or functional programming approaches.
