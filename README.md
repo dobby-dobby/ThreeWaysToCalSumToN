@@ -8,13 +8,13 @@ Disadvantages:
 - Inefficiency for Large: 𝑛: Iterating many times can slow down the program if n is very large.
 
 Way 2: Using the Formula
-Advantages:
-- Fast (Constant Time): 𝑂(1) as it uses a mathematical formula and doesn't require iteration.
-- Resource Efficient: Doesn't consume additional memory or processing power for looping or recursion.
-- Error-Free: Direct formula avoids common pitfalls like off-by-one errors.
-Disadvantages:
-- Requires Knowledge of the Formula: Not immediately intuitive unless you're familiar with this specific summation formula.
-- Prone to Overflow: For very large 𝑛, the multiplication 𝑛 X (𝑛+1) can cause integer overflow in some programming languages.
+- Advantages:
+  - Fast (Constant Time): 𝑂(1) as it uses a mathematical formula and doesn't require iteration.
+  - Resource Efficient: Doesn't consume additional memory or processing power for looping or recursion.
+  - Error-Free: Direct formula avoids common pitfalls like off-by-one errors.
+- Disadvantages:
+  - Requires Knowledge of the Formula: Not immediately intuitive unless you're familiar with this specific summation formula.
+  - Prone to Overflow: For very large 𝑛, the multiplication 𝑛 X (𝑛+1) can cause integer overflow in some programming languages.
 
 Way 3: Using Recursion
 Advantages:
